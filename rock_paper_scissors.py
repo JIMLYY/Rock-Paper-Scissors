@@ -34,9 +34,9 @@ class HumanPlayer(Player):
 
     def move(self):
         choice = input("rock, paper or scissors?")
-        while choice not in moves:
+        while choice.lower() not in moves:
             choice = input("rock, paper or scissors?")
-        return choice
+        return choice.lower()
 
 
 class ReflectPlayer(Player):
@@ -118,6 +118,8 @@ class Game:
 
 
 if __name__ == '__main__':
-    game = Game(Player(), Player())
+    player_1 = HumanPlayer()
+    player_2 = RandomPlayer()
+    game = Game(player_1, player_2)
     game.play_game()
  
