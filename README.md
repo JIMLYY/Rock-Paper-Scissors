@@ -8,6 +8,8 @@ plays the game of Rock Paper Scissors by implementing Python and object-oriented
 ## Instruction 
 In this project, I wrote computer players wtih different strategies, and a human player class that lets a human play the 
 game against the computer. If you want to play this game:
+1. clone this repository to local computer by running in your terminal:
+-  ```git clone https://github.com/JIMLYY/Rock-Paper-Scissors.git``` 
 1. ensure python3 has installed
 2. open the file ```rock_paper_scissors.py```
 
