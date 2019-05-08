@@ -1,20 +1,19 @@
-# ipnd_rps_starter_code
-In this repository you'll find the Python file that contains the starter code for the Rock Paper Scissors project.
+# Rock Paper Scissors
 
-Download the `starter_code.py` file, and build your project by adding to that file! When you're done, submit your project by following the instructions in the classroom.
+## Introduction
+* The game Rock Paper Scissors is a worldwide game. This game can even be tracked back to the Han Dynasty (206 BC–220 AD)
+of ancient China, contemporary with Roman Empire! It is called jian dao, shi tou, bu in China, pierre-papier-ciseaux or chifoumi in France; roshambo in parts of the U.S., taş kağıt makas in Turkey, and jan-ken-pon in Japan. Today, Rock Paper Scissors is still a popular game not only for fun but also as a way to set dispute. In this project, I built a program that 
+plays the game of Rock Paper Scissors by implementing Python and object-oriented programming skills. 
 
-If you want to play with a demo of this project, download one of the `rps_demo` files that ends with the `.pyc` file extension. You should download the file with a number that matches your version of Python. For example, if you have Python 3.7, you should download `rps_demo_37.pyc`. If you run the file with a version of Python that doesn't match, you may get the following error:
+## Instruction 
+In this project, I wrote computer players wtih different strategies, and a human player class that lets a human play the 
+game against the computer. If you want to play this game:
+1. ensure python3 has installed
+2. open the file ```rock_paper_scissors.py```
 
-```text
-RuntimeError: Bad magic number in .pyc file
-```
+## Want to try if for yourself
+Starter code has been provided. 
+1. open ```starter_code.py```
+2. start coding 
 
-`.pyc` files are _compiled_ Python files. They can be run the same way as `.py` files, by using the `python` or `python3` command in your terminal, along with the name of the file. Like this:
-
-```text
-python3 rps_demo_37.pyc
-```
-
-But, if you open up this file and try to read it, it won't look like `python` code! Don't worry, the file is fine, we just want you to come up with your own solution to the project. 
-
-Remember, the demo is just there as an example. Your project does **not** have to work identically to the demo!
+Cheers :rocket:
